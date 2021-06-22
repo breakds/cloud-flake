@@ -21,6 +21,7 @@
         buildInputs = with pkgs; [
           awscli2
           terraform
+          postman
         ];
 
         shellHook = ''
